@@ -1,0 +1,44 @@
+{
+    "information": [{
+        "no": "01",
+        "user": "LMUNIZ",
+        "name": "LUIS ALEJANDRO MUÑIZ SALAS",
+        "phone": "8441022561",
+        "position": "JEFE",
+        "departament": "PRODUCCION",
+        "read": "x",
+        "alta": "x",
+        "mod":  ""
+    }, {
+        "no": "02",
+        "name": "GABRIELA GUERRA CASTILLO",
+        "user": "GGUERRA",
+        "phone": "8442345687",
+        "position": "COTIZACIONES",
+        "departament": "COMPRAS",
+        "read": "",
+        "alta": "x",
+        "mod":  ""
+    },
+     {
+        "no": "03",
+        "name": "MIGUEL ALEJANDRO GARIBAY MARTINEZ",
+        "user": "MGARIBAY",
+        "phone": "8443244421",
+        "position": "GERENTE",
+        "departament": "VENTAS",
+        "read": "x",
+        "alta": "",
+        "mod":  "x"
+    }, {
+        "no": "04",
+        "name": "DANTE DAVID ACOSTA RAMOS",
+        "user": "DACOSTA",
+        "phone": "8443242311",
+        "position": "ADMINISTRACION GENERAL SIGA",
+        "departament": "OPERACIONES",
+        "read": "x",
+        "alta": "x",
+        "mod":  ""
+    }]
+}

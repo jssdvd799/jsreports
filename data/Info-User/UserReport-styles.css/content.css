@@ -1,0 +1,51 @@
+.center {
+    text-align: center;
+}
+
+.info {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .user-report table tr.top table td {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .user-report table tr.information table td {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.text {
+    font-weight: 600;
+    background: rgba(79, 255, 167, 0.15);
+}
+
+.user-report {
+    color: #555;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(79, 255, 167, 0.15);
+    font-size: 16px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    max-width: 800px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.user-report table td {
+    border: 2px solid #eee;
+    font-size: 10px;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.user-report table {
+    text-align: left;
+}

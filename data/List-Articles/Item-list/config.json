@@ -1,20 +1,20 @@
 {
-    "shortid": "S_3M0-LURv",
-    "name": "data",
+    "name": "Item-list",
     "recipe": "chrome-pdf",
     "engine": "handlebars",
     "chrome": {
         "printBackground": true
     },
     "creationDate": {
-        "$$date": 1601497154406
+        "$$date": 1601889073881
     },
     "modificationDate": {
-        "$$date": 1601539621278
+        "$$date": 1601973269515
     },
-    "_id": "S4xxNLHpzjnqzawz",
-    "$entitySet": "templates",
     "data": {
         "shortid": "dSeWOzI"
-    }
+    },
+    "shortid": "pF9foL1",
+    "_id": "FUqnCBhq7vtuVZwB",
+    "$entitySet": "templates"
 }

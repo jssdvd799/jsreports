@@ -1,0 +1,27 @@
+{
+    "items": [{
+        "no": "01",
+        "clasification": "10001",
+        "departament": "10000",
+        "id": "0001",
+        "description": "Cople para tubo de 8 de '1/2'",
+        "Unit": "MAT",
+        "price": "$ 35.00"
+    },{
+        "no": "02",
+        "clasification": "10002",
+        "departament": "10000",
+        "id": "0002",
+        "description": "Cople para tubo de 8 de '1/2'",
+        "Unit": "MAT",
+        "price": "$ 24.00"
+    },{
+        "no": "03",
+        "clasification": "10003",
+        "departament": "10000",
+        "id": "0003",
+        "description": "Cople para tubo de 8 de '1/2'",
+        "Unit": "MAT",
+        "price": "$ 32.00"
+  }]
+}

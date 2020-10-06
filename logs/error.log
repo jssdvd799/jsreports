@@ -137,3 +137,347 @@
     at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
     at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
     at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-01T09:07:39.956Z - error: Rendering request 68 finished with error in 12 ms
+2020-10-01T09:07:39.956Z - error: Error when processing render request 68 Asset data-styled.css not found Error: Asset data-styled.css not found
+    at readAsset (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-assets\lib\assets.js:218:15)
+2020-10-01T09:07:39.957Z - error: Error during processing request at http://localhost:8001/api/report/data
+2020-10-02T07:45:18.078Z - error: Rendering request 38 finished with error in 4 ms
+2020-10-02T07:45:18.079Z - error: Error when processing render request 38 Asset Info-Providers-styled.css not found Error: Asset Info-Providers-styled.css not found
+    at readAsset (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-assets\lib\assets.js:218:15)
+2020-10-02T07:45:18.079Z - error: Error during processing request at http://localhost:8001/api/report/Info-Providers
+2020-10-05T06:27:16.910Z - error: Rendering request 86 finished with error in 4 ms
+2020-10-05T06:27:16.910Z - error: Error when processing render request 86 Asset providers-styled.css not found Error: Asset providers-styled.css not found
+    at readAsset (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-assets\lib\assets.js:218:15)
+2020-10-05T06:27:16.911Z - error: Error during processing request at http://localhost:8001/api/report/Info-Providers
+2020-10-05T07:23:33.116Z - error: Error during processing request at http://localhost:8001/api/report/User-report, details: SyntaxError: Unexpected string in JSON at position 130
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-05T07:23:48.198Z - error: Error during processing request at http://localhost:8001/api/report/User-report, details: SyntaxError: Unexpected string in JSON at position 130
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-05T07:25:06.064Z - error: Error during processing request at http://localhost:8001/api/report/User-report, details: SyntaxError: Unexpected string in JSON at position 130
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-05T08:25:07.620Z - error: Error during processing request at http://localhost:8001/api/report/User-report, details: SyntaxError: Unexpected token } in JSON at position 1203
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-05T08:26:06.190Z - error: Error during processing request at http://localhost:8001/api/report/User-report, details: SyntaxError: Unexpected token } in JSON at position 1201
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-05T08:26:48.836Z - error: Error during processing request at http://localhost:8001/api/report/User-report, details: SyntaxError: Unexpected token [ in JSON at position 1203
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-05T08:36:02.001Z - error: Error during processing request at http://localhost:8001/api/report/User-report, details: SyntaxError: Unexpected token : in JSON at position 314
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
+2020-10-05T08:51:01.850Z - error: Error when processing OData PATCH: /odata/data(O6Eo8gIrTCTZ2JVj) Error: Entity (_id: O6Eo8gIrTCTZ2JVj) was modified previously by another source
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\util\createError.js:11:13)
+    at Reporter.createError (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:332:12)
+    at AsyncFunction.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:468:30)
+2020-10-06T08:15:27.816Z - error: Error during processing request at http://localhost:8001/api/report/Supplier%20Report, details: SyntaxError: Unexpected token } in JSON at position 571
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:48:17)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\request.js:31:23)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:115:19)
+    at Reporter.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\reporter.js:324:12)
+    at Object.reporter.express.render (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:42:14)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:75:22
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\routes.js:17:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-studio\lib\studio.js:85:7
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-express\lib\reporter.express.js:188:5
+    at Layer.handle [as handle_request] (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\cors\lib\index.js:204:7)
