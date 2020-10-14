@@ -5,38 +5,26 @@
 .info {
     font-size: 20px;
     line-height: 30px;
-    padding: 30px;
     text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-    .user-report table tr.top table td {
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
-    .user-report table tr.information table td {
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
-}
+
 
 .text {
-    font-weight: 600;
-    background: rgba(79, 255, 167, 0.15);
+     background-color: #e6e6e6 !important;
+    border: 1px solid #e6e6e6;
+    color: #444;
+    font-weight: 700;
+    text-align: center;
 }
 
 .user-report {
     color: #555;
-    border: 1px solid #eee;
-    box-shadow: 0 0 10px rgba(79, 255, 167, 0.15);
     font-size: 16px;
     font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
     line-height: 24px;
-    max-width: 800px;
-    margin: 30px;
-    padding: 30px;
+    padding: 10px;
+
 }
 
 .user-report table td {
@@ -49,7 +37,52 @@
 .user-report table {
     text-align: left;
 }
-
-.status{
-    background-color: greenyellow;
+body{
+ margin-top: 10px;
+}
+.verde {
+     width: 2px;
+     height: 2px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #5cb85c;
+     color: #5cb85c
+}
+.rojo {
+     width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #D71A1A;
+     color: #D71A1A;
+}
+.amarillo {
+     width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #D7EF2D;
+     color: #D7EF2D;
+}
+.negro {
+     width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #000000;
+     color: #000000;
+}
+.blanco {
+     width: 10px;
+     height: 20px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #fff;
+     color: #fff;
+     border: 1px solid #000000;
 }

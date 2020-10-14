@@ -8,8 +8,8 @@
       </style>
     <title>Informe de proveedores</title>
     </head>
-
-    <div class="user-report">
+ <body>
+    <div class="user-report ">
         <div class="columns">
             <div class="column is-2">
                <img class="image"src="{#asset User-Tecno-Logo.png @encoding=dataURI}"  style="width:200%; max-width:300px;" />
@@ -20,93 +20,55 @@
             </div>
             <div class="column info is-2"></div>
         </div>
-
-  <body>
         <table class="table is-bordered is-fullwidth">
-                <thead>
-                        <tr class="text">
-                            <td>
-                                NO.
-                            </td>
-                            <td>
-                                RAZON SOCIAL
-                            </td>
-                            <td>
-                                NOMBRE CORTO
-                            </td>
-                            <td>
-                                RFC
-                            </td>
-                            <td>
-                                CLASIFICACION
-                            </td>
-                            <td>
-                                FORMA DE PAGO
-                            </td>
-                            <td colspan="2">
-                                D. CREDITO
-                            </td>
-                        </tr>
-                </thead>
-                        <tbody>
-                            {{#each data}}
-                        <tr>
-                            <td>{{no}}</td>
-                            <td>{{businessname}}</td>
-                            <td>{{shortname}}</td>
-                            <td>{{rfc}}</td>
-                            <td>{{clasification}}</td>
-                            <td>{{waytopay}}</td>
-                            <td colspan="2">{{creditdays}}</td>
-                        </tr>
-                          {{/each}}
-                        </tbody>
-                <thead>
-                          <tr class="text">
-                            <td>
-                                MONEDA
-                            </td>
-                            <td>
-                                BANCO
-                            </td>
-                            <td>
-                                CUENTA
-                            </td>
-                            <td>
-                                CLABE
-                            </td>
-                            <td>
-                                DIRECCION
-                            </td>
-                            <td>
-                                SUCURSAL
-                            </td>
-                            
-                            <td>
-                               CALIFICACION 
-                            </td>
-                            <td>
-                                ESTATUS
-                            </td>
-                        </tr>
-                </thead>
-                <tbody>
-                    {{#each data}}
-                        <tr>
-                            <td>{{coin}}</td>
-                            <td>{{bank}}</td>
-                            <td>{{account}}</td>
-                            <td>{{clabe}}</td>
-                            <td>{{direction}}</td>
-                            <td>{{branchoffice}}</td>
-                            <td>{{qualification}}</td>
-                            <td class="status">{{status}}</td>
-                           
-                        </tr>
-                    {{/each}}
-                </tbody>
-            </table>
-        </body>
-
-    </div>
+            <thead>
+                <tr class="text">
+                    <td> NO.</td>
+                    <td>RAZON SOCIAL</td>
+                    <td>NOMBRE CORTO</td>
+                    <td>RFC</td>
+                    <td>CLAS</td>
+                    <td>FORMA DE PAGO</td>
+                    <td>D. CREDITO</td>
+                    <td>MONEDA</td>
+                    <td>BANCO</td>
+                    <td>CUENTA / CLABE</td>
+                    <td style=" min-width:120px">DIRECCION</td>
+                    <td>SUCURSAL</td>                           
+                    <td>CALIFICACION </td>
+                    <td>ESTATUS</td>
+                </tr>
+            </thead>
+            <tbody>
+            {{#each data}}
+                <tr>
+                    <td>{{no}}</td>
+                    <td>{{businessname}}</td>
+                    <td>{{shortname}}</td>
+                    <td>{{rfc}}</td>
+                    <td>{{clasification}}</td>
+                    <td>{{waytopay}}</td>
+                    <td>{{creditdays}}</td>
+                    <td>{{coin}}</td>
+                    <td>{{bank}}</td>
+                    <td>
+                        <ul>
+                            <li>
+                                <b>cuenta:</b> {{account}}
+                            </li>
+                            <li>
+                                <b>clabe:</b> {{clabe}}
+                            </li>
+                        </ul>
+                    </td>
+                    <td>{{direction}}</td>
+                    <td>{{branchoffice}}</td>
+                    <td>{{qualification}}</td>
+                    <td class="verde"></td>
+                </tr>
+             {{/each}}
+            </tbody>
+        </table>
+     </div>
+    </body>
 </html>

@@ -6,10 +6,10 @@
       <style>
             {#asset UserReport-styles.css @encoding=utf8}
       </style>
-    <title>Informe de proveedores</title>
+    <title>Informe de USUARIOS</title>
     </head>
 
-
+ <body>
     <div class="user-report">
         <div class="columns">
             <div class="column is-2">
@@ -22,37 +22,19 @@
             <div class="column info is-2"></div>
         </div>
     
-        <body>
+       
             <table class="table is-bordered is-fullwidth">
                 <thead>
                         <tr class="text">
-                            <td>
-                                NO.
-                            </td>
-                            <td>
-                                USUARIO
-                            </td>
-                            <td>
-                                NOMBRE
-                            </td>
-                            <td>
-                                TELEFONO
-                            </td>
-                            <td>
-                                PUESTO
-                            </td>
-                            <td>
-                                DEPARTAMENTO
-                            </td>
-                            <td>
-                                LEER
-                            </td>
-                            <td>
-                                ALTA
-                            </td>
-                            <td>
-                                MOD
-                            </td>
+                            <td> NO.</td>
+                            <td>USUARIO</td>
+                            <td>NOMBRE</td>
+                            <td>TELEFONO</td>
+                            <td>PUESTO</td>
+                            <td>DEPARTAMENTO</td>
+                            <td>LEER</td>
+                            <td>ALTA</td>
+                            <td>MOD</td>
                         </tr>
                 </thead>
                 <tbody>
@@ -64,13 +46,13 @@
                             <td>{{phone}}</td>
                             <td>{{position}}</td>
                             <td>{{departament}}</td>
-                            <td>{{read}}</td>
-                            <td>{{alta}}</td>
-                            <td>{{mod}}</td>
+                            <td class="data">{{read}}</td>
+                            <td class="data">{{alta}}</td>
+                            <td class="data">{{mod}}</td>
                         </tr>
                     {{/each}}
                 </tbody>
             </table>
-        </body>
     </div>
+ </body>
 </html>
