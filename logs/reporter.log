@@ -28478,3 +28478,178 @@ SyntaxError: Unexpected token < in JSON at position 6
 2020-10-14T16:48:12.215Z - debug: Skipping storing report.
 2020-10-14T16:48:12.216Z - info: Rendering request 1 finished in 3962 ms
 >>>>>>> bac250c486b43fc4af6b271ea23ab22806fa438c
+2020-10-14T19:27:26.762Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-14T19:27:26.765Z - info: Searching for available extensions in C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\
+2020-10-14T19:27:26.772Z - info: Extensions location cache doesn't contain entry yet, crawling
+2020-10-14T19:27:28.002Z - info: Found 35 extensions
+2020-10-14T19:27:28.173Z - debug: Writing extension locations cache to C:\Users\PC_TOM\AppData\Local\Temp\jsreport\core\locations.json
+2020-10-14T19:27:28.176Z - debug: Discovered 35 extensions
+2020-10-14T19:27:28.239Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2020-10-14T19:27:28.249Z - debug: Extension authentication@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-authentication:2.6.0 is disabled, skipping
+2020-10-14T19:27:28.249Z - info: Using extension cli@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-cli:2.2.5
+2020-10-14T19:27:28.260Z - info: Using extension debug@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-debug:2.1.3
+2020-10-14T19:27:28.264Z - info: Using extension express@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-express:2.8.0
+2020-10-14T19:27:28.442Z - info: Using extension freeze@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-freeze:2.0.0
+2020-10-14T19:27:28.444Z - info: Using extension handlebars@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-handlebars:2.1.0
+2020-10-14T19:27:28.447Z - info: Using extension import-export@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-import-export:2.1.0
+2020-10-14T19:27:28.506Z - info: Using extension jsrender@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-jsrender:2.1.1
+2020-10-14T19:27:28.507Z - info: Using extension tags@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-tags:2.5.0
+2020-10-14T19:27:28.511Z - info: Using extension templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-templates:2.4.0
+2020-10-14T19:27:28.515Z - info: Using extension authorization@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-authorization:2.4.0
+2020-10-14T19:27:28.520Z - debug: Extension authorization@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-authorization:2.4.0 was disabled
+2020-10-14T19:27:28.520Z - info: Using extension base@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-base:2.0.2
+2020-10-14T19:27:28.522Z - info: Using extension browser-client@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-browser-client:2.2.2
+2020-10-14T19:27:28.525Z - info: Using extension child-templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-child-templates:1.4.0
+2020-10-14T19:27:28.531Z - info: Using extension chrome-pdf@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-chrome-pdf:1.9.0
+2020-10-14T19:27:28.607Z - debug: Chrome strategy is dedicated-process
+2020-10-14T19:27:28.608Z - info: Using extension data@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-data:2.4.0
+2020-10-14T19:27:28.609Z - info: Using extension docx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-docx:2.8.0
+2020-10-14T19:27:28.614Z - info: Using extension fs-store@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-fs-store:2.9.0
+2020-10-14T19:27:28.753Z - info: Using extension licensing@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-licensing:2.2.3
+2020-10-14T19:27:28.762Z - info: Using extension pdf-utils@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-pdf-utils:1.9.0
+2020-10-14T19:27:28.866Z - info: Using extension pptx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-pptx:0.7.0
+2020-10-14T19:27:28.871Z - info: Using extension reports@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-reports:2.5.0
+2020-10-14T19:27:28.876Z - info: Using extension static-pdf@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-static-pdf:0.4.0
+2020-10-14T19:27:28.880Z - info: Using extension studio@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-studio:2.10.1
+2020-10-14T19:27:28.958Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-10-14T19:27:28.961Z - info: Using extension text@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-text:2.0.0
+2020-10-14T19:27:28.962Z - info: Using extension version-control@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-version-control:1.5.1
+2020-10-14T19:27:29.040Z - info: Using extension assets@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-assets:1.7.0
+2020-10-14T19:27:29.055Z - info: Using extension html-to-xlsx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-html-to-xlsx:2.8.0
+2020-10-14T19:27:29.435Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-14T19:27:29.436Z - info: Using extension scheduling@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-scheduling:2.5.0
+2020-10-14T19:27:29.482Z - info: Using extension scripts@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-scripts:2.6.0
+2020-10-14T19:27:29.487Z - info: Using extension studio-theme-dark@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-studio-theme-dark:0.3.0
+2020-10-14T19:27:29.489Z - info: Using extension xlsx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-xlsx:2.5.0
+2020-10-14T19:27:29.648Z - info: Using extension public-templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-public-templates:2.2.0
+2020-10-14T19:27:29.650Z - debug: Extension public-templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-public-templates:2.2.0 was disabled
+2020-10-14T19:27:29.650Z - info: Using extension resources@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-resources:2.1.0
+2020-10-14T19:27:29.652Z - info: Using extension sample-template@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-sample-template:2.6.0
+2020-10-14T19:27:29.654Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-14T19:27:29.654Z - info: Using fs provider for template store.
+2020-10-14T19:27:29.661Z - info: fs store is persisting using fs
+2020-10-14T19:27:29.663Z - info: fs store sync is disabled
+2020-10-14T19:27:29.665Z - info: fs store underlying changes synchronization with studio is disabled
+2020-10-14T19:27:29.673Z - info: fs store is loading data
+2020-10-14T19:27:29.712Z - info: fs store is initialized successfully
+2020-10-14T19:27:29.719Z - debug: studio default theme is: light
+2020-10-14T19:27:29.730Z - info: Creating default express app.
+2020-10-14T19:27:29.752Z - info: jsreport server successfully started on http port: 8001
+2020-10-14T19:27:29.754Z - info: Verifying license key free
+2020-10-14T19:27:30.392Z - info: Starting one month enterprise trial
+2020-10-14T19:27:30.398Z - info: reporter initialized
+2020-10-14T19:27:47.352Z - debug: OData query on templates
+2020-10-14T19:27:47.361Z - debug: OData query on folders
+2020-10-14T19:27:47.368Z - debug: OData query on tags
+2020-10-14T19:27:47.370Z - debug: OData query on data
+2020-10-14T19:27:47.373Z - debug: OData query on assets
+2020-10-14T19:27:47.378Z - debug: OData query on scripts
+2020-10-14T19:27:47.491Z - debug: OData query on xlsxTemplates
+2020-10-14T19:27:47.500Z - debug: OData query on schedules
+2020-10-14T19:27:47.513Z - debug: OData query on settings
+2020-10-14T19:27:47.669Z - debug: OData query on templates
+2020-10-14T19:27:47.789Z - debug: OData query on settings
+2020-10-14T19:27:52.151Z - debug: OData query on templates
+2020-10-14T19:27:53.485Z - info: Starting rendering request 1 (user: null)
+2020-10-14T19:27:53.488Z - info: Rendering template { name: Supplier Report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-14T19:27:53.490Z - debug: Adding sample data ZIfrGCMZzl
+2020-10-14T19:27:53.491Z - debug: Resources not defined for this template.
+2020-10-14T19:27:53.493Z - debug: Base url not specified, skipping its injection.
+2020-10-14T19:27:53.506Z - debug: Replaced assets [" Supplier-Report-styles.css","User-Tecno-Logo.png"]
+2020-10-14T19:27:53.508Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-14T19:27:53.787Z - debug: Compiled template not found in the cache, compiling
+2020-10-14T19:27:53.795Z - debug: Executing recipe chrome-pdf
+2020-10-14T19:27:54.274Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-14T19:27:54.518Z - debug: Page request: GET (document) file:///C:/Users/PC_TOM/AppData/Local/Temp/jsreport/autocleanup/553d36bf-2eed-4043-9042-a79320f014e3-chrome-pdf.html
+2020-10-14T19:27:54.548Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-14T19:27:54.549Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-14T19:27:54.550Z - debug: Page request finished: GET (document) file:///C:/Users/PC_TOM/AppData/Local/Temp/jsreport/autocleanup/553d36bf-2eed-4043-9042-a79320f014e3-chrome-pdf.html
+2020-10-14T19:27:54.572Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-14T19:27:54.575Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-14T19:27:54.783Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-14T19:27:56.582Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-14T19:27:56.604Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-14T19:27:56.954Z - debug: Skipping storing report.
+2020-10-14T19:27:56.955Z - info: Rendering request 1 finished in 3470 ms
+2020-10-14T19:34:17.599Z - debug: OData query on templates
+2020-10-14T19:34:17.603Z - debug: OData query on folders
+2020-10-14T19:34:17.611Z - debug: OData query on tags
+2020-10-14T19:34:17.612Z - debug: OData query on data
+2020-10-14T19:34:17.617Z - debug: OData query on assets
+2020-10-14T19:34:17.618Z - debug: OData query on scripts
+2020-10-14T19:34:17.619Z - debug: OData query on xlsxTemplates
+2020-10-14T19:34:17.626Z - debug: OData query on schedules
+2020-10-14T19:34:17.632Z - debug: OData query on settings
+2020-10-14T19:34:17.694Z - debug: OData query on templates
+2020-10-14T19:34:36.360Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-14T19:34:36.363Z - info: Searching for available extensions in C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\
+2020-10-14T19:34:36.375Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\
+2020-10-14T19:34:36.396Z - info: Found 35 extensions
+2020-10-14T19:34:36.600Z - debug: Writing extension locations cache to C:\Users\PC_TOM\AppData\Local\Temp\jsreport\core\locations.json
+2020-10-14T19:34:36.602Z - debug: Discovered 35 extensions
+2020-10-14T19:34:36.673Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2020-10-14T19:34:36.683Z - debug: Extension authentication@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-authentication:2.6.0 is disabled, skipping
+2020-10-14T19:34:36.683Z - info: Using extension cli@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-cli:2.2.5
+2020-10-14T19:34:36.690Z - info: Using extension debug@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-debug:2.1.3
+2020-10-14T19:34:36.692Z - info: Using extension express@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-express:2.8.0
+2020-10-14T19:34:36.836Z - info: Using extension freeze@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-freeze:2.0.0
+2020-10-14T19:34:36.838Z - info: Using extension handlebars@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-handlebars:2.1.0
+2020-10-14T19:34:36.842Z - info: Using extension import-export@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-import-export:2.1.0
+2020-10-14T19:34:36.891Z - info: Using extension jsrender@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-jsrender:2.1.1
+2020-10-14T19:34:36.893Z - info: Using extension tags@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-tags:2.5.0
+2020-10-14T19:34:36.896Z - info: Using extension templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-templates:2.4.0
+2020-10-14T19:34:36.899Z - info: Using extension authorization@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-authorization:2.4.0
+2020-10-14T19:34:36.904Z - debug: Extension authorization@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-authorization:2.4.0 was disabled
+2020-10-14T19:34:36.904Z - info: Using extension base@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-base:2.0.2
+2020-10-14T19:34:36.906Z - info: Using extension browser-client@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-browser-client:2.2.2
+2020-10-14T19:34:36.909Z - info: Using extension child-templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-child-templates:1.4.0
+2020-10-14T19:34:36.914Z - info: Using extension chrome-pdf@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-chrome-pdf:1.9.0
+2020-10-14T19:34:36.992Z - debug: Chrome strategy is dedicated-process
+2020-10-14T19:34:36.993Z - info: Using extension data@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-data:2.4.0
+2020-10-14T19:34:36.994Z - info: Using extension docx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-docx:2.8.0
+2020-10-14T19:34:36.999Z - info: Using extension fs-store@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-fs-store:2.9.0
+2020-10-14T19:34:37.125Z - info: Using extension licensing@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-licensing:2.2.3
+2020-10-14T19:34:37.135Z - info: Using extension pdf-utils@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-pdf-utils:1.9.0
+2020-10-14T19:34:37.239Z - info: Using extension pptx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-pptx:0.7.0
+2020-10-14T19:34:37.244Z - info: Using extension reports@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-reports:2.5.0
+2020-10-14T19:34:37.249Z - info: Using extension static-pdf@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-static-pdf:0.4.0
+2020-10-14T19:34:37.253Z - info: Using extension studio@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-studio:2.10.1
+2020-10-14T19:34:37.320Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-10-14T19:34:37.324Z - info: Using extension text@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-text:2.0.0
+2020-10-14T19:34:37.325Z - info: Using extension version-control@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-version-control:1.5.1
+2020-10-14T19:34:37.421Z - info: Using extension assets@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-assets:1.7.0
+2020-10-14T19:34:37.439Z - info: Using extension html-to-xlsx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-html-to-xlsx:2.8.0
+2020-10-14T19:34:37.772Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-14T19:34:37.773Z - info: Using extension scheduling@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-scheduling:2.5.0
+2020-10-14T19:34:37.810Z - info: Using extension scripts@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-scripts:2.6.0
+2020-10-14T19:34:37.815Z - info: Using extension studio-theme-dark@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-studio-theme-dark:0.3.0
+2020-10-14T19:34:37.816Z - info: Using extension xlsx@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-xlsx:2.5.0
+2020-10-14T19:34:37.971Z - info: Using extension public-templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-public-templates:2.2.0
+2020-10-14T19:34:37.973Z - debug: Extension public-templates@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-public-templates:2.2.0 was disabled
+2020-10-14T19:34:37.974Z - info: Using extension resources@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-resources:2.1.0
+2020-10-14T19:34:37.975Z - info: Using extension sample-template@local:C:\Users\PC_TOM\Desktop\jsreportChuy\jsreports\node_modules\jsreport-sample-template:2.6.0
+2020-10-14T19:34:37.978Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-14T19:34:37.978Z - info: Using fs provider for template store.
+2020-10-14T19:34:37.986Z - info: fs store is persisting using fs
+2020-10-14T19:34:37.988Z - info: fs store sync is disabled
+2020-10-14T19:34:37.990Z - info: fs store underlying changes synchronization with studio is disabled
+2020-10-14T19:34:37.995Z - info: fs store is loading data
+2020-10-14T19:34:38.039Z - info: fs store is initialized successfully
+2020-10-14T19:34:38.046Z - debug: studio default theme is: light
+2020-10-14T19:34:38.056Z - info: Creating default express app.
+2020-10-14T19:34:38.080Z - info: jsreport server successfully started on http port: 8001
+2020-10-14T19:34:38.082Z - info: Verifying license key free
+2020-10-14T19:34:38.713Z - info: Using enterprise trial license
+2020-10-14T19:34:38.719Z - info: reporter initialized
+2020-10-14T19:34:53.470Z - debug: OData query on templates
+2020-10-14T19:34:53.475Z - debug: OData query on folders
+2020-10-14T19:34:53.481Z - debug: OData query on tags
+2020-10-14T19:34:53.482Z - debug: OData query on data
+2020-10-14T19:34:53.484Z - debug: OData query on assets
+2020-10-14T19:34:53.485Z - debug: OData query on scripts
+2020-10-14T19:34:53.491Z - debug: OData query on xlsxTemplates
+2020-10-14T19:34:53.493Z - debug: OData query on schedules
+2020-10-14T19:34:53.499Z - debug: OData query on settings
+2020-10-14T19:34:53.653Z - debug: OData query on templates
+2020-10-14T19:34:53.772Z - debug: OData query on settings
+2020-10-14T19:34:57.657Z - debug: OData query on templates

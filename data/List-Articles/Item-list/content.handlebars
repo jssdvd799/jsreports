@@ -6,10 +6,10 @@
       <style>
             {#asset Item-list-styles.css @encoding=utf8}
       </style>
-    <title>Informe de proveedores</title>
+    <title>Informe de ARTICULOS</title>
     </head>
 
-
+ <body>
     <div class="user-report">
         <div class="columns">
             <div class="column is-2">
@@ -21,49 +21,32 @@
             </div>
             <div class="column info is-2"></div>
         </div>
-    
-        <body>
-            <table class="table is-bordered is-fullwidth">
-                <thead>
-               <tr class="text">
-                         <td>
-                            no.
-                        </td>
-                        <td>
-                            clasificacion
-                        </td>
-                        <td>
-                            departamento
-                        </td>
-                        <td>
-                            id
-                        </td>
-                        <td>
-                            descripcion / caracteristicas
-                        </td>
-                        <td>
-                            unidad
-                        </td>
-                        <td>
-                            precio
-                        </td>
-                    </tr>
-                </thead>
-                <tbody>
-                 {{#each items}}
+        <table class="table is-bordered is-fullwidth">
+            <thead>
+               <tr class="tableHead">
+                    <td>NO.</td>
+                    <td>CLASIFICACION</td>
+                    <td>DEPARTAMENTO</td>
+                    <td>ID</td>
+                    <td>DESCRIPCION / CARACTERISTICAS</td>
+                    <td>UNIDAD</td>
+                    <td>PRECIO</td>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each items}}
                     <tr>
-                        <td>{{no}}</td>
-                        <td>{{clasification}}</td>
-                        <td>{{departament}}</td>
-                        <td>{{id}}</td>
-                        <td>{{description}}</td>
-                        <td>{{Unit}}</td>
-                        <td>{{price}}</td>
+                      <td>{{no}}</td>
+                      <td>{{clasification}}</td>
+                      <td>{{departament}}</td>
+                      <td>{{id}}</td>
+                      <td>{{description}}</td>
+                      <td>{{Unit}}</td>
+                      <td>{{price}}</td>
                     </tr>
-                 {{/each}}
-                </tbody>
-              
-            </table>
-        </body>
+                {{/each}}
+            </tbody>     
+        </table>
     </div>
+</body>
 </html>

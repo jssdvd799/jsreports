@@ -4,36 +4,20 @@
         "clasification": "10001",
         "departament": "10000",
         "id": "0001",
-        "description": "Cople para tubo conduit pared gruesa ceo de 30 de 2",
+        "description": "Cople para tubo de 8 de '1/2'",
         "Unit": "MAT",
-        "price": "$ 39.00"
+        "price": "$ 35.00"
     },{
         "no": "02",
         "clasification": "10002",
         "departament": "10000",
         "id": "0002",
-        "description": "Cople para tubo de 4 de '1/2'",
-        "Unit": "MAT",
-        "price": "$ 18.00"
-    },{
-        "no": "03",
-        "clasification": "10003",
-        "departament": "10000",
-        "id": "0002",
-        "description": "Cople para tubo conduit pared gruesa ceo de 30 de 2-1/2",
-        "Unit": "MAT",
-        "price": "$ 48.00"
-    },{
-        "no": "04",
-        "clasification": "10004",
-        "departament": "10000",
-        "id": "0002",
-        "description": "Cople para tubo de 6 de 1",
+        "description": "Cople para tubo de 8 de '1/2'",
         "Unit": "MAT",
         "price": "$ 24.00"
     },{
-        "no": "05",
-        "clasification": "10005",
+        "no": "03",
+        "clasification": "10003",
         "departament": "10000",
         "id": "0003",
         "description": "Cople para tubo de 8 de '1/2'",
