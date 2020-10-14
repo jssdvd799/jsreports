@@ -27154,6 +27154,7 @@ Expecting 'EOF', got 'OPEN_ENDBLOCK'
 2020-10-06T08:34:39.760Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
 2020-10-06T08:34:40.005Z - debug: Skipping storing report.
 2020-10-06T08:34:40.005Z - info: Rendering request 183 finished in 863 ms
+<<<<<<< HEAD
 2020-10-14T17:43:23.801Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
 2020-10-14T17:43:23.802Z - info: Searching for available extensions in C:\Users\PeRsO\Desktop\jsreportapp\
 2020-10-14T17:43:23.808Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\PeRsO\Desktop\jsreportapp\
@@ -27214,3 +27215,1266 @@ Expecting 'EOF', got 'OPEN_ENDBLOCK'
 2020-10-14T17:43:25.260Z - info: Verifying license key free
 2020-10-14T17:43:26.145Z - info: Using enterprise trial license
 2020-10-14T17:43:26.157Z - info: reporter initialized
+=======
+2020-10-06T08:38:35.042Z - debug: OData query on assets
+2020-10-06T08:38:49.582Z - debug: OData update on assets
+2020-10-06T08:38:49.593Z - debug: OData query on assets
+2020-10-06T08:38:50.190Z - info: Starting rendering request 184 (user: null)
+2020-10-06T08:38:50.190Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:38:50.190Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:38:50.190Z - debug: Resources not defined for this template.
+2020-10-06T08:38:50.191Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:38:50.192Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:38:50.195Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:38:50.361Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:38:50.367Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:38:50.461Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:38:50.521Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/af90bde1-9967-4e02-bdc8-f7cbf1f848a3-chrome-pdf.html
+2020-10-06T08:38:50.540Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:38:50.540Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:38:50.547Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/af90bde1-9967-4e02-bdc8-f7cbf1f848a3-chrome-pdf.html
+2020-10-06T08:38:50.558Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:38:50.559Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:38:50.785Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:38:50.936Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:38:50.950Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:38:51.210Z - debug: Skipping storing report.
+2020-10-06T08:38:51.211Z - info: Rendering request 184 finished in 1022 ms
+2020-10-06T08:38:54.411Z - debug: OData update on assets
+2020-10-06T08:38:54.421Z - debug: OData query on assets
+2020-10-06T08:38:55.033Z - info: Starting rendering request 185 (user: null)
+2020-10-06T08:38:55.041Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:38:55.042Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:38:55.042Z - debug: Resources not defined for this template.
+2020-10-06T08:38:55.042Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:38:55.044Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:38:55.044Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:38:55.204Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:38:55.205Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:38:55.283Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:38:55.342Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e3dba313-6c9e-4556-8912-09c436f5bdb9-chrome-pdf.html
+2020-10-06T08:38:55.361Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:38:55.362Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:38:55.369Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e3dba313-6c9e-4556-8912-09c436f5bdb9-chrome-pdf.html
+2020-10-06T08:38:55.376Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:38:55.379Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:38:55.521Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:38:55.697Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:38:55.712Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:38:55.956Z - debug: Skipping storing report.
+2020-10-06T08:38:55.956Z - info: Rendering request 185 finished in 924 ms
+2020-10-06T08:39:00.842Z - debug: OData update on assets
+2020-10-06T08:39:00.855Z - debug: OData query on assets
+2020-10-06T08:39:01.243Z - info: Starting rendering request 186 (user: null)
+2020-10-06T08:39:01.243Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:39:01.244Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:39:01.249Z - debug: Resources not defined for this template.
+2020-10-06T08:39:01.250Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:39:01.256Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:39:01.256Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:39:01.416Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:39:01.422Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:39:01.510Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:39:01.569Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e07431a1-1343-4c25-8648-b9a673b977c8-chrome-pdf.html
+2020-10-06T08:39:01.587Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:01.587Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:01.594Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e07431a1-1343-4c25-8648-b9a673b977c8-chrome-pdf.html
+2020-10-06T08:39:01.602Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:01.604Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:01.753Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:01.896Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:01.910Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:39:02.155Z - debug: Skipping storing report.
+2020-10-06T08:39:02.156Z - info: Rendering request 186 finished in 913 ms
+2020-10-06T08:39:20.974Z - debug: OData update on assets
+2020-10-06T08:39:20.985Z - debug: OData query on assets
+2020-10-06T08:39:21.397Z - info: Starting rendering request 187 (user: null)
+2020-10-06T08:39:21.397Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:39:21.398Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:39:21.398Z - debug: Resources not defined for this template.
+2020-10-06T08:39:21.404Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:39:21.411Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:39:21.411Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:39:21.572Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:39:21.578Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:39:21.667Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:39:21.725Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/dd4626a7-27dd-4cc5-be70-401ecb749f7f-chrome-pdf.html
+2020-10-06T08:39:21.743Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:21.743Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:21.750Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/dd4626a7-27dd-4cc5-be70-401ecb749f7f-chrome-pdf.html
+2020-10-06T08:39:21.759Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:21.761Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:21.904Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:22.051Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:22.065Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:39:22.325Z - debug: Skipping storing report.
+2020-10-06T08:39:22.326Z - info: Rendering request 187 finished in 928 ms
+2020-10-06T08:39:26.196Z - debug: OData update on assets
+2020-10-06T08:39:26.207Z - debug: OData query on assets
+2020-10-06T08:39:26.778Z - info: Starting rendering request 188 (user: null)
+2020-10-06T08:39:26.778Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:39:26.779Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:39:26.779Z - debug: Resources not defined for this template.
+2020-10-06T08:39:26.785Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:39:26.786Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:39:26.787Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:39:26.948Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:39:26.949Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:39:27.037Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:39:27.095Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/19e2f3b9-ee2b-44e8-902e-2e61f8fb329e-chrome-pdf.html
+2020-10-06T08:39:27.113Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:27.114Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:27.120Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/19e2f3b9-ee2b-44e8-902e-2e61f8fb329e-chrome-pdf.html
+2020-10-06T08:39:27.131Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:27.133Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:27.322Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:27.430Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:27.444Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:39:27.686Z - debug: Skipping storing report.
+2020-10-06T08:39:27.686Z - info: Rendering request 188 finished in 909 ms
+2020-10-06T08:39:32.304Z - debug: OData update on assets
+2020-10-06T08:39:32.313Z - debug: OData query on assets
+2020-10-06T08:39:32.672Z - info: Starting rendering request 189 (user: null)
+2020-10-06T08:39:32.679Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:39:32.679Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:39:32.680Z - debug: Resources not defined for this template.
+2020-10-06T08:39:32.681Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:39:32.682Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:39:32.683Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:39:32.850Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:39:32.856Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:39:32.931Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:39:32.990Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/883efda1-24ad-463f-b1db-f855f8102320-chrome-pdf.html
+2020-10-06T08:39:33.009Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:33.009Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:33.015Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/883efda1-24ad-463f-b1db-f855f8102320-chrome-pdf.html
+2020-10-06T08:39:33.027Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:33.029Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:33.170Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:33.298Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:33.313Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:39:33.555Z - debug: Skipping storing report.
+2020-10-06T08:39:33.556Z - info: Rendering request 189 finished in 884 ms
+2020-10-06T08:39:38.186Z - debug: OData update on assets
+2020-10-06T08:39:38.197Z - debug: OData query on assets
+2020-10-06T08:39:38.581Z - info: Starting rendering request 190 (user: null)
+2020-10-06T08:39:38.581Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:39:38.581Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:39:38.582Z - debug: Resources not defined for this template.
+2020-10-06T08:39:38.588Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:39:38.590Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:39:38.591Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:39:38.750Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:39:38.756Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:39:38.831Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:39:38.891Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/f434690f-da1a-4ab6-989f-d4f3178bb73b-chrome-pdf.html
+2020-10-06T08:39:38.909Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:38.910Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:38.916Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/f434690f-da1a-4ab6-989f-d4f3178bb73b-chrome-pdf.html
+2020-10-06T08:39:38.924Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:38.927Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:39.101Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:39.238Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:39.255Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:39:39.498Z - debug: Skipping storing report.
+2020-10-06T08:39:39.499Z - info: Rendering request 190 finished in 918 ms
+2020-10-06T08:39:57.081Z - debug: OData update on assets
+2020-10-06T08:39:57.091Z - debug: OData query on assets
+2020-10-06T08:39:57.683Z - info: Starting rendering request 191 (user: null)
+2020-10-06T08:39:57.683Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:39:57.683Z - debug: Adding sample data dSeWOzI
+2020-10-06T08:39:57.683Z - debug: Resources not defined for this template.
+2020-10-06T08:39:57.689Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:39:57.691Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:39:57.691Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:39:57.853Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:39:57.859Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:39:57.934Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:39:57.996Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e681a534-5b51-4d65-a72d-31472d9858fb-chrome-pdf.html
+2020-10-06T08:39:58.014Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:58.014Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:58.021Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e681a534-5b51-4d65-a72d-31472d9858fb-chrome-pdf.html
+2020-10-06T08:39:58.030Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:58.037Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:39:58.185Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:39:58.318Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:39:58.333Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:39:58.581Z - debug: Skipping storing report.
+2020-10-06T08:39:58.581Z - info: Rendering request 191 finished in 899 ms
+2020-10-06T08:43:47.491Z - debug: OData query on data
+2020-10-06T08:44:43.337Z - debug: OData update on data
+2020-10-06T08:44:43.348Z - debug: OData query on data
+2020-10-06T08:44:43.716Z - info: Starting rendering request 192 (user: null)
+2020-10-06T08:44:43.716Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:44:43.716Z - debug: Inline data specified.
+2020-10-06T08:44:43.716Z - debug: Resources not defined for this template.
+2020-10-06T08:44:43.722Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:44:43.724Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:44:43.724Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:44:43.887Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:44:43.893Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:44:43.972Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:44:44.031Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/448585db-d02f-4ce6-832b-6bca6aa8a859-chrome-pdf.html
+2020-10-06T08:44:44.050Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:44:44.050Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:44:44.057Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/448585db-d02f-4ce6-832b-6bca6aa8a859-chrome-pdf.html
+2020-10-06T08:44:44.065Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:44:44.067Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:44:44.279Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:44:44.405Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:44:44.419Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:44:44.681Z - debug: Skipping storing report.
+2020-10-06T08:44:44.681Z - info: Rendering request 192 finished in 966 ms
+2020-10-06T08:45:02.734Z - debug: OData update on data
+2020-10-06T08:45:02.745Z - debug: OData query on data
+2020-10-06T08:45:03.069Z - info: Starting rendering request 193 (user: null)
+2020-10-06T08:45:03.069Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:45:03.069Z - debug: Inline data specified.
+2020-10-06T08:45:03.075Z - debug: Resources not defined for this template.
+2020-10-06T08:45:03.076Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:45:03.078Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:45:03.078Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:45:03.242Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:45:03.250Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:45:03.349Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:45:03.405Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/630cd4e7-191e-4f17-adf0-18cf64071ac7-chrome-pdf.html
+2020-10-06T08:45:03.423Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:45:03.423Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:45:03.430Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/630cd4e7-191e-4f17-adf0-18cf64071ac7-chrome-pdf.html
+2020-10-06T08:45:03.437Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:45:03.447Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:45:03.747Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:45:03.774Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:45:03.799Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:45:04.049Z - debug: Skipping storing report.
+2020-10-06T08:45:04.049Z - info: Rendering request 193 finished in 981 ms
+2020-10-06T08:45:14.902Z - debug: OData update on data
+2020-10-06T08:45:14.913Z - debug: OData query on data
+2020-10-06T08:45:15.359Z - info: Starting rendering request 194 (user: null)
+2020-10-06T08:45:15.359Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:45:15.359Z - debug: Inline data specified.
+2020-10-06T08:45:15.360Z - debug: Resources not defined for this template.
+2020-10-06T08:45:15.366Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:45:15.367Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:45:15.368Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:45:15.528Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:45:15.533Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:45:15.609Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:45:15.669Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/7503f638-cb38-4419-a72c-320d18909d82-chrome-pdf.html
+2020-10-06T08:45:15.687Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:45:15.688Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:45:15.689Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/7503f638-cb38-4419-a72c-320d18909d82-chrome-pdf.html
+2020-10-06T08:45:15.704Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:45:15.705Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:45:15.853Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:45:15.985Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:45:15.999Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:45:16.250Z - debug: Skipping storing report.
+2020-10-06T08:45:16.250Z - info: Rendering request 194 finished in 892 ms
+2020-10-06T08:45:55.770Z - debug: OData update on data
+2020-10-06T08:45:55.780Z - debug: OData query on data
+2020-10-06T08:45:56.238Z - info: Starting rendering request 195 (user: null)
+2020-10-06T08:45:56.238Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:45:56.239Z - debug: Inline data specified.
+2020-10-06T08:45:56.244Z - debug: Resources not defined for this template.
+2020-10-06T08:45:56.245Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:45:56.246Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:45:56.252Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:45:56.413Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:45:56.419Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:45:56.509Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:45:56.567Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/86b7e0c2-889d-4832-82fc-816dadbfb153-chrome-pdf.html
+2020-10-06T08:45:56.586Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:45:56.586Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:45:56.592Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/86b7e0c2-889d-4832-82fc-816dadbfb153-chrome-pdf.html
+2020-10-06T08:45:56.602Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:45:56.604Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:45:56.756Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:45:56.900Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:45:56.913Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:45:57.166Z - debug: Skipping storing report.
+2020-10-06T08:45:57.167Z - info: Rendering request 195 finished in 930 ms
+2020-10-06T08:50:37.744Z - debug: OData update on data
+2020-10-06T08:50:37.754Z - debug: OData query on data
+2020-10-06T08:50:38.163Z - info: Starting rendering request 196 (user: null)
+2020-10-06T08:50:38.164Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:50:38.164Z - debug: Inline data specified.
+2020-10-06T08:50:38.164Z - debug: Resources not defined for this template.
+2020-10-06T08:50:38.164Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:50:38.167Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:50:38.167Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:50:38.329Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:50:38.331Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:50:38.421Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:50:38.478Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e4344acd-7af7-4c47-a2b9-8de3dcf159b4-chrome-pdf.html
+2020-10-06T08:50:38.496Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:50:38.497Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:50:38.498Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e4344acd-7af7-4c47-a2b9-8de3dcf159b4-chrome-pdf.html
+2020-10-06T08:50:38.511Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:50:38.514Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:50:38.734Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:50:38.928Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:50:38.941Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:50:39.199Z - debug: Skipping storing report.
+2020-10-06T08:50:39.199Z - info: Rendering request 196 finished in 1037 ms
+2020-10-06T08:51:09.659Z - debug: OData update on assets
+2020-10-06T08:51:09.670Z - debug: OData query on assets
+2020-10-06T08:51:10.058Z - info: Starting rendering request 197 (user: null)
+2020-10-06T08:51:10.058Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:51:10.059Z - debug: Inline data specified.
+2020-10-06T08:51:10.059Z - debug: Resources not defined for this template.
+2020-10-06T08:51:10.059Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:51:10.061Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:51:10.061Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:51:10.223Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:51:10.224Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:51:10.311Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:51:10.369Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/7612cf9c-fd2f-4949-852e-73d95248fd7f-chrome-pdf.html
+2020-10-06T08:51:10.387Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:51:10.387Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:51:10.388Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/7612cf9c-fd2f-4949-852e-73d95248fd7f-chrome-pdf.html
+2020-10-06T08:51:10.402Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:51:10.404Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:51:10.545Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:51:10.669Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:51:10.684Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:51:10.944Z - debug: Skipping storing report.
+2020-10-06T08:51:10.944Z - info: Rendering request 197 finished in 886 ms
+2020-10-06T08:51:32.271Z - debug: OData query on assets
+2020-10-06T08:51:35.375Z - debug: OData query on assets
+2020-10-06T08:53:03.652Z - debug: OData update on templates
+2020-10-06T08:53:03.669Z - debug: OData query on templates
+2020-10-06T08:53:04.035Z - info: Starting rendering request 198 (user: null)
+2020-10-06T08:53:04.036Z - info: Rendering template { name: Supplier Report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:53:04.036Z - debug: Adding sample data ZIfrGCMZzl
+2020-10-06T08:53:04.036Z - debug: Resources not defined for this template.
+2020-10-06T08:53:04.037Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:53:04.038Z - debug: Replaced assets [" Supplier-Report-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:53:04.039Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:53:04.202Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:53:04.203Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:53:04.279Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:53:04.337Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e0b3d55c-2de0-4450-b41a-386b564b2c68-chrome-pdf.html
+2020-10-06T08:53:04.355Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:04.356Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:04.357Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/e0b3d55c-2de0-4450-b41a-386b564b2c68-chrome-pdf.html
+2020-10-06T08:53:04.371Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:04.373Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:04.577Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:04.652Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:04.666Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:53:04.933Z - debug: Skipping storing report.
+2020-10-06T08:53:04.934Z - info: Rendering request 198 finished in 899 ms
+2020-10-06T08:53:06.473Z - info: Starting rendering request 199 (user: null)
+2020-10-06T08:53:06.474Z - info: Rendering template { name: Supplier Report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:53:06.474Z - debug: Adding sample data ZIfrGCMZzl
+2020-10-06T08:53:06.474Z - debug: Resources not defined for this template.
+2020-10-06T08:53:06.474Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:53:06.476Z - debug: Replaced assets [" Supplier-Report-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:53:06.476Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:53:06.636Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:53:06.638Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:53:06.727Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:53:06.787Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/133e3b86-1760-4c33-9d9c-505e78ee1be6-chrome-pdf.html
+2020-10-06T08:53:06.805Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:06.806Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:06.807Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/133e3b86-1760-4c33-9d9c-505e78ee1be6-chrome-pdf.html
+2020-10-06T08:53:06.820Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:06.823Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:06.987Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:07.101Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:07.115Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:53:07.383Z - debug: Skipping storing report.
+2020-10-06T08:53:07.384Z - info: Rendering request 199 finished in 910 ms
+2020-10-06T08:53:22.469Z - debug: OData update on assets
+2020-10-06T08:53:22.480Z - debug: OData query on assets
+2020-10-06T08:53:24.433Z - info: Starting rendering request 200 (user: null)
+2020-10-06T08:53:24.433Z - info: Rendering template { name: Supplier Report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:53:24.434Z - debug: Adding sample data ZIfrGCMZzl
+2020-10-06T08:53:24.434Z - debug: Resources not defined for this template.
+2020-10-06T08:53:24.434Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:53:24.436Z - debug: Replaced assets [" Supplier-Report-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:53:24.436Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:53:24.598Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:53:24.600Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:53:24.676Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:53:24.732Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/f1074596-9d41-49d1-bd34-588390e5f467-chrome-pdf.html
+2020-10-06T08:53:24.750Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:24.751Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:24.752Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/f1074596-9d41-49d1-bd34-588390e5f467-chrome-pdf.html
+2020-10-06T08:53:24.765Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:24.767Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:24.912Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:25.037Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:25.050Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:53:25.307Z - debug: Skipping storing report.
+2020-10-06T08:53:25.307Z - info: Rendering request 200 finished in 875 ms
+2020-10-06T08:53:32.464Z - info: Starting rendering request 201 (user: null)
+2020-10-06T08:53:32.464Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:53:32.464Z - debug: Inline data specified.
+2020-10-06T08:53:32.465Z - debug: Resources not defined for this template.
+2020-10-06T08:53:32.465Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:53:32.466Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:53:32.466Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:53:32.627Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:53:32.629Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:53:32.702Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:53:32.760Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/ab62973b-276b-47d2-8b70-6614b3bafc45-chrome-pdf.html
+2020-10-06T08:53:32.778Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:32.778Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:32.779Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/ab62973b-276b-47d2-8b70-6614b3bafc45-chrome-pdf.html
+2020-10-06T08:53:32.793Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:32.795Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:53:32.955Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:53:33.072Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:53:33.086Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:53:33.338Z - debug: Skipping storing report.
+2020-10-06T08:53:33.338Z - info: Rendering request 201 finished in 875 ms
+2020-10-06T08:54:14.390Z - debug: OData update on templates
+2020-10-06T08:54:14.404Z - debug: OData query on templates
+2020-10-06T08:54:14.753Z - info: Starting rendering request 202 (user: null)
+2020-10-06T08:54:14.754Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:54:14.754Z - debug: Inline data specified.
+2020-10-06T08:54:14.754Z - debug: Resources not defined for this template.
+2020-10-06T08:54:14.754Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:54:14.756Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:54:14.756Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:54:14.919Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:54:14.922Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:54:15.003Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:54:15.062Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/a74b9e32-2235-450c-bb0c-8bf5c7e0b387-chrome-pdf.html
+2020-10-06T08:54:15.080Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:54:15.080Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:54:15.082Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/a74b9e32-2235-450c-bb0c-8bf5c7e0b387-chrome-pdf.html
+2020-10-06T08:54:15.095Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:54:15.097Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:54:15.257Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:54:15.390Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:54:15.403Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:54:15.661Z - debug: Skipping storing report.
+2020-10-06T08:54:15.661Z - info: Rendering request 202 finished in 908 ms
+2020-10-06T08:54:22.687Z - debug: OData update on assets
+2020-10-06T08:54:22.697Z - debug: OData query on assets
+2020-10-06T08:54:23.783Z - info: Starting rendering request 203 (user: null)
+2020-10-06T08:54:23.784Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:54:23.784Z - debug: Inline data specified.
+2020-10-06T08:54:23.784Z - debug: Resources not defined for this template.
+2020-10-06T08:54:23.785Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:54:23.786Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:54:23.787Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:54:23.956Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:54:23.957Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:54:24.046Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:54:24.105Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/133da739-b0a5-472e-baec-56b7f581298b-chrome-pdf.html
+2020-10-06T08:54:24.123Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:54:24.124Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:54:24.125Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/133da739-b0a5-472e-baec-56b7f581298b-chrome-pdf.html
+2020-10-06T08:54:24.139Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:54:24.141Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:54:24.290Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:54:24.431Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:54:24.445Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:54:24.703Z - debug: Skipping storing report.
+2020-10-06T08:54:24.703Z - info: Rendering request 203 finished in 920 ms
+2020-10-06T08:54:30.862Z - info: Starting rendering request 204 (user: null)
+2020-10-06T08:54:30.862Z - info: Rendering template { name: User-report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:54:30.863Z - debug: Adding sample data H3W1s79
+2020-10-06T08:54:30.863Z - debug: Resources not defined for this template.
+2020-10-06T08:54:30.863Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:54:30.865Z - debug: Replaced assets ["UserReport-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:54:30.865Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:54:31.026Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:54:31.027Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:54:31.113Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:54:31.171Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/8b148356-831d-42dd-b042-574af93cfde1-chrome-pdf.html
+2020-10-06T08:54:31.189Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:54:31.190Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:54:31.191Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/8b148356-831d-42dd-b042-574af93cfde1-chrome-pdf.html
+2020-10-06T08:54:31.204Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:54:31.207Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:54:31.348Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:54:31.499Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:54:31.513Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:54:31.770Z - debug: Skipping storing report.
+2020-10-06T08:54:31.771Z - info: Rendering request 204 finished in 909 ms
+2020-10-06T08:55:09.052Z - debug: OData update on templates
+2020-10-06T08:55:09.067Z - debug: OData query on templates
+2020-10-06T08:55:09.777Z - info: Starting rendering request 205 (user: null)
+2020-10-06T08:55:09.778Z - info: Rendering template { name: User-report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:55:09.778Z - debug: Adding sample data H3W1s79
+2020-10-06T08:55:09.778Z - debug: Resources not defined for this template.
+2020-10-06T08:55:09.779Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:55:09.780Z - debug: Replaced assets ["UserReport-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:55:09.780Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:55:09.940Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:55:09.942Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:55:10.028Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:55:10.086Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/dd1d026b-3fff-452a-8a55-1892c4a58a7a-chrome-pdf.html
+2020-10-06T08:55:10.105Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:55:10.106Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:55:10.107Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/dd1d026b-3fff-452a-8a55-1892c4a58a7a-chrome-pdf.html
+2020-10-06T08:55:10.120Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:55:10.124Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:55:10.433Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:55:10.457Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:55:10.483Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:55:10.748Z - debug: Skipping storing report.
+2020-10-06T08:55:10.749Z - info: Rendering request 205 finished in 972 ms
+2020-10-06T08:55:18.877Z - debug: OData update on assets
+2020-10-06T08:55:18.887Z - debug: OData query on assets
+2020-10-06T08:55:19.405Z - info: Starting rendering request 206 (user: null)
+2020-10-06T08:55:19.405Z - info: Rendering template { name: User-report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:55:19.406Z - debug: Adding sample data H3W1s79
+2020-10-06T08:55:19.406Z - debug: Resources not defined for this template.
+2020-10-06T08:55:19.406Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:55:19.408Z - debug: Replaced assets ["UserReport-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:55:19.408Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:55:19.571Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:55:19.572Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:55:19.664Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:55:19.721Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/0ce61fc2-b53b-46cd-819f-5dc0422bae74-chrome-pdf.html
+2020-10-06T08:55:19.738Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:55:19.739Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:55:19.741Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/0ce61fc2-b53b-46cd-819f-5dc0422bae74-chrome-pdf.html
+2020-10-06T08:55:19.754Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:55:19.757Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:55:19.909Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:55:20.049Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:55:20.063Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:55:20.324Z - debug: Skipping storing report.
+2020-10-06T08:55:20.325Z - info: Rendering request 206 finished in 921 ms
+2020-10-06T08:55:39.347Z - info: Starting rendering request 207 (user: null)
+2020-10-06T08:55:39.348Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:55:39.348Z - debug: Inline data specified.
+2020-10-06T08:55:39.348Z - debug: Resources not defined for this template.
+2020-10-06T08:55:39.349Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:55:39.350Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:55:39.351Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:55:39.511Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:55:39.513Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:55:39.601Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:55:39.661Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/84b4dfb4-7911-460b-91fd-1b5cf62beca1-chrome-pdf.html
+2020-10-06T08:55:39.679Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:55:39.680Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:55:39.681Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/84b4dfb4-7911-460b-91fd-1b5cf62beca1-chrome-pdf.html
+2020-10-06T08:55:39.695Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:55:39.697Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:55:39.834Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:55:40.062Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:55:40.075Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:55:40.335Z - debug: Skipping storing report.
+2020-10-06T08:55:40.335Z - info: Rendering request 207 finished in 988 ms
+2020-10-06T08:56:06.391Z - debug: OData update on data
+2020-10-06T08:56:06.402Z - debug: OData query on data
+2020-10-06T08:56:06.741Z - info: Starting rendering request 208 (user: null)
+2020-10-06T08:56:06.741Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:56:06.742Z - debug: Inline data specified.
+2020-10-06T08:56:06.742Z - debug: Resources not defined for this template.
+2020-10-06T08:56:06.742Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:56:06.744Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:56:06.744Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:56:06.905Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:56:06.906Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:56:06.982Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:56:07.041Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/28614676-1173-4439-97fc-e53c3070621e-chrome-pdf.html
+2020-10-06T08:56:07.059Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:56:07.060Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:56:07.061Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/28614676-1173-4439-97fc-e53c3070621e-chrome-pdf.html
+2020-10-06T08:56:07.075Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:56:07.077Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:56:07.230Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:56:07.368Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:56:07.382Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:56:07.647Z - debug: Skipping storing report.
+2020-10-06T08:56:07.648Z - info: Rendering request 208 finished in 907 ms
+2020-10-06T08:57:13.761Z - debug: OData update on data
+2020-10-06T08:57:13.770Z - debug: OData query on data
+2020-10-06T08:57:14.132Z - info: Starting rendering request 209 (user: null)
+2020-10-06T08:57:14.132Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:57:14.133Z - debug: Inline data specified.
+2020-10-06T08:57:14.133Z - debug: Resources not defined for this template.
+2020-10-06T08:57:14.133Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:57:14.135Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:57:14.135Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:57:14.296Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:57:14.298Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:57:14.387Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:57:14.443Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/ab8f0fd7-7297-40ee-ba9d-4220e3bac964-chrome-pdf.html
+2020-10-06T08:57:14.461Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:57:14.461Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:57:14.462Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/ab8f0fd7-7297-40ee-ba9d-4220e3bac964-chrome-pdf.html
+2020-10-06T08:57:14.476Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:57:14.479Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:57:14.777Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:57:14.801Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:57:14.827Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:57:15.097Z - debug: Skipping storing report.
+2020-10-06T08:57:15.097Z - info: Rendering request 209 finished in 966 ms
+2020-10-06T08:57:37.182Z - debug: OData update on data
+2020-10-06T08:57:37.192Z - debug: OData query on data
+2020-10-06T08:57:37.670Z - info: Starting rendering request 210 (user: null)
+2020-10-06T08:57:37.671Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:57:37.671Z - debug: Inline data specified.
+2020-10-06T08:57:37.671Z - debug: Resources not defined for this template.
+2020-10-06T08:57:37.672Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:57:37.673Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:57:37.674Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:57:37.832Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:57:37.834Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:57:37.920Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:57:37.977Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/0ab67f65-d68d-4e9c-ad58-f1931dff16c8-chrome-pdf.html
+2020-10-06T08:57:37.996Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:57:37.996Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:57:37.997Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/0ab67f65-d68d-4e9c-ad58-f1931dff16c8-chrome-pdf.html
+2020-10-06T08:57:38.010Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:57:38.013Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:57:38.168Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:57:38.293Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:57:38.307Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:57:38.570Z - debug: Skipping storing report.
+2020-10-06T08:57:38.570Z - info: Rendering request 210 finished in 900 ms
+2020-10-06T08:57:57.488Z - debug: OData update on data
+2020-10-06T08:57:57.497Z - debug: OData query on data
+2020-10-06T08:57:58.184Z - info: Starting rendering request 211 (user: null)
+2020-10-06T08:57:58.184Z - info: Rendering template { name: Item-list, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:57:58.185Z - debug: Inline data specified.
+2020-10-06T08:57:58.185Z - debug: Resources not defined for this template.
+2020-10-06T08:57:58.185Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:57:58.187Z - debug: Replaced assets ["Item-list-styles.css","Item-Tecno-Logo.png"]
+2020-10-06T08:57:58.187Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:57:58.348Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:57:58.350Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:57:58.437Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:57:58.495Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/9b617ca7-da82-4b78-baf1-27461eb7073e-chrome-pdf.html
+2020-10-06T08:57:58.512Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:57:58.513Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:57:58.514Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/9b617ca7-da82-4b78-baf1-27461eb7073e-chrome-pdf.html
+2020-10-06T08:57:58.528Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:57:58.530Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:57:58.683Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:57:58.811Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:57:58.825Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:57:59.081Z - debug: Skipping storing report.
+2020-10-06T08:57:59.081Z - info: Rendering request 211 finished in 897 ms
+2020-10-06T08:58:07.792Z - info: Starting rendering request 212 (user: null)
+2020-10-06T08:58:07.792Z - info: Rendering template { name: Supplier Report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:58:07.792Z - debug: Adding sample data ZIfrGCMZzl
+2020-10-06T08:58:07.793Z - debug: Resources not defined for this template.
+2020-10-06T08:58:07.793Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:58:07.794Z - debug: Replaced assets [" Supplier-Report-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:58:07.795Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:58:07.957Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:58:07.959Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:58:08.034Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:58:08.093Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/0a460a57-a4d7-4b44-a49a-e86bbd405aa4-chrome-pdf.html
+2020-10-06T08:58:08.111Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:08.112Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:08.113Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/0a460a57-a4d7-4b44-a49a-e86bbd405aa4-chrome-pdf.html
+2020-10-06T08:58:08.127Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:08.129Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:08.269Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:08.401Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:08.415Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:58:08.671Z - debug: Skipping storing report.
+2020-10-06T08:58:08.671Z - info: Rendering request 212 finished in 880 ms
+2020-10-06T08:58:12.176Z - info: Starting rendering request 213 (user: null)
+2020-10-06T08:58:12.177Z - info: Rendering template { name: User-report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:58:12.177Z - debug: Adding sample data H3W1s79
+2020-10-06T08:58:12.177Z - debug: Resources not defined for this template.
+2020-10-06T08:58:12.178Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:58:12.179Z - debug: Replaced assets ["UserReport-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:58:12.180Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:58:12.338Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:58:12.340Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:58:12.416Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:58:12.474Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/b87161eb-23c8-48ed-ad6e-fa705506f5f1-chrome-pdf.html
+2020-10-06T08:58:12.492Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:12.493Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:12.494Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/b87161eb-23c8-48ed-ad6e-fa705506f5f1-chrome-pdf.html
+2020-10-06T08:58:12.508Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:12.510Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:12.667Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:12.835Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:12.849Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:58:13.106Z - debug: Skipping storing report.
+2020-10-06T08:58:13.106Z - info: Rendering request 213 finished in 930 ms
+2020-10-06T08:58:21.197Z - debug: OData query on data
+2020-10-06T08:58:28.254Z - debug: OData update on data
+2020-10-06T08:58:28.264Z - debug: OData query on data
+2020-10-06T08:58:28.727Z - info: Starting rendering request 214 (user: null)
+2020-10-06T08:58:28.727Z - info: Rendering template { name: User-report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:58:28.727Z - debug: Inline data specified.
+2020-10-06T08:58:28.728Z - debug: Resources not defined for this template.
+2020-10-06T08:58:28.728Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:58:28.730Z - debug: Replaced assets ["UserReport-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:58:28.730Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:58:28.890Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:58:28.892Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:58:28.969Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:58:29.027Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/9ea0da65-9a01-48a9-9fc5-8af07fadb54c-chrome-pdf.html
+2020-10-06T08:58:29.046Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:29.046Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:29.047Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/9ea0da65-9a01-48a9-9fc5-8af07fadb54c-chrome-pdf.html
+2020-10-06T08:58:29.061Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:29.063Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:29.205Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:29.341Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:29.355Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:58:29.618Z - debug: Skipping storing report.
+2020-10-06T08:58:29.619Z - info: Rendering request 214 finished in 893 ms
+2020-10-06T08:58:38.329Z - debug: OData update on data
+2020-10-06T08:58:38.339Z - debug: OData query on data
+2020-10-06T08:58:38.802Z - info: Starting rendering request 215 (user: null)
+2020-10-06T08:58:38.802Z - info: Rendering template { name: User-report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T08:58:38.802Z - debug: Inline data specified.
+2020-10-06T08:58:38.803Z - debug: Resources not defined for this template.
+2020-10-06T08:58:38.803Z - debug: Base url not specified, skipping its injection.
+2020-10-06T08:58:38.804Z - debug: Replaced assets ["UserReport-styles.css","User-Tecno-Logo.png"]
+2020-10-06T08:58:38.805Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T08:58:38.965Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T08:58:38.966Z - debug: Executing recipe chrome-pdf
+2020-10-06T08:58:39.041Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T08:58:39.099Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/1a297c21-2cae-4d97-99a4-a5377b419827-chrome-pdf.html
+2020-10-06T08:58:39.118Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:39.118Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:39.119Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/1a297c21-2cae-4d97-99a4-a5377b419827-chrome-pdf.html
+2020-10-06T08:58:39.133Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:39.136Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T08:58:39.280Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T08:58:39.407Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T08:58:39.424Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T08:58:39.682Z - debug: Skipping storing report.
+2020-10-06T08:58:39.683Z - info: Rendering request 215 finished in 882 ms
+2020-10-06T09:27:19.856Z - debug: OData query on templates
+2020-10-06T09:27:19.866Z - debug: OData query on folders
+2020-10-06T09:27:19.869Z - debug: OData query on tags
+2020-10-06T09:27:19.870Z - debug: OData query on data
+2020-10-06T09:27:19.873Z - debug: OData query on assets
+2020-10-06T09:27:19.874Z - debug: OData query on scripts
+2020-10-06T09:27:19.875Z - debug: OData query on xlsxTemplates
+2020-10-06T09:27:19.878Z - debug: OData query on schedules
+2020-10-06T09:27:19.887Z - debug: OData query on settings
+2020-10-06T09:27:19.994Z - debug: OData query on templates
+2020-10-06T09:27:20.051Z - debug: OData query on settings
+2020-10-06T09:27:32.795Z - debug: OData insert into folders
+2020-10-06T09:28:16.705Z - debug: OData insert into templates
+2020-10-06T09:29:55.150Z - debug: OData query on templates
+2020-10-06T09:29:57.068Z - info: Starting rendering request 216 (user: null)
+2020-10-06T09:29:57.068Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:29:57.069Z - debug: Data item not defined for this template.
+2020-10-06T09:29:57.075Z - debug: Resources not defined for this template.
+2020-10-06T09:29:57.076Z - debug: Executing script orders-script using dedicated-process strategy
+2020-10-06T09:29:57.466Z - warn: Rendering request 216 finished with error in 399 ms
+2020-10-06T09:29:57.476Z - warn: Error when processing render request 216 Error while executing user script. require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["https"] } }. 
+
+  1 | // server side script fetching remote data and preparing report data source
+> 2 | const https = require('https');
+    |               ^
+  3 | 
+  4 | // call remote http rest api
+  5 | function fetchOrders() {
+
+ Error: require of "https" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { "extensions": { "scripts": { "allowedModules": ["https"] } }
+    at _require (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-user-script.js:2:15
+    at Script.runInContext (vm.js:130:18)
+    at VM.run (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+    at run (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at scriptEvalChild (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-scripts\lib\scriptEvalChild.js:210:5)
+    at scriptExecModuleWrapper (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\scriptExecModuleWrapper.js:34:26)
+    at process.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:315:20)
+2020-10-06T09:29:57.477Z - warn: Error during processing request at http://localhost:8001/api/report/orders-main
+2020-10-06T09:30:09.171Z - debug: OData query on templates
+2020-10-06T09:30:10.001Z - info: Starting rendering request 217 (user: null)
+2020-10-06T09:30:10.002Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:30:10.007Z - debug: Data item not defined for this template.
+2020-10-06T09:30:10.008Z - debug: Resources not defined for this template.
+2020-10-06T09:30:10.009Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:30:10.010Z - debug: Replaced assets ["orders-styles.css"]
+2020-10-06T09:30:10.010Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:30:10.170Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:30:10.170Z - debug: Executing recipe chrome-pdf
+2020-10-06T09:30:10.262Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T09:30:10.325Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/f0bc838a-3e6a-447a-a058-a44647798620-chrome-pdf.html
+2020-10-06T09:30:10.337Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/f0bc838a-3e6a-447a-a058-a44647798620-chrome-pdf.html
+2020-10-06T09:30:10.343Z - debug: Page request: GET (stylesheet) https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css
+2020-10-06T09:30:12.883Z - debug: Page request finished: GET (stylesheet) 200 https://cdnjs.cloudflare.com/ajax/libs/metro/4.1.5/css/metro.min.css
+2020-10-06T09:30:12.890Z - debug: Running chrome with params {"printBackground":true,"marginTop":"1.5cm","marginRight":"1.5cm","marginLeft":"1.cm","margin":{"top":"1.5cm","right":"1.5cm","left":"1.cm"}}
+2020-10-06T09:30:13.047Z - debug: Skipping storing report.
+2020-10-06T09:30:13.048Z - info: Rendering request 217 finished in 3047 ms
+2020-10-06T09:30:21.195Z - debug: OData query on templates
+2020-10-06T09:30:22.995Z - info: Starting rendering request 218 (user: null)
+2020-10-06T09:30:22.995Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2020-10-06T09:30:22.996Z - debug: Adding sample data B1lSTrt6NB
+2020-10-06T09:30:23.002Z - debug: Resources not defined for this template.
+2020-10-06T09:30:23.009Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:30:23.011Z - debug: Replaced assets ["sales-styles.css"]
+2020-10-06T09:30:23.011Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:30:23.179Z - warn: Rendering request 218 finished with error in 184 ms
+2020-10-06T09:30:23.187Z - warn: Error when processing render request 218 Error while executing templating engine. require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }. 
+
+  229 | })(this)
+  230 | 
+> 231 | const moment = require('moment')
+      |                ^
+  232 | const rowOffset = 6
+  233 | 
+  234 | function nowStr () {
+
+ Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }
+    at _require (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine-helpers.js:231:16
+    at Script.runInContext (vm.js:130:18)
+    at VM.run (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+    at run (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\engineScript.js:236:9)
+    at process.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:315:20)
+    at emit (internal/child_process.js:876:12)
+2020-10-06T09:30:23.187Z - warn: Error during processing request at http://localhost:8001/api/report/sales-main
+2020-10-06T09:30:25.683Z - debug: OData query on data
+2020-10-06T09:30:28.375Z - info: Starting rendering request 219 (user: null)
+2020-10-06T09:30:28.376Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true }
+2020-10-06T09:30:28.381Z - debug: Inline data specified.
+2020-10-06T09:30:28.382Z - debug: Resources not defined for this template.
+2020-10-06T09:30:28.382Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:30:28.383Z - debug: Replaced assets ["sales-styles.css"]
+2020-10-06T09:30:28.384Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:30:28.548Z - warn: Rendering request 219 finished with error in 174 ms
+2020-10-06T09:30:28.556Z - warn: Error when processing render request 219 Error while executing templating engine. require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }. 
+
+  229 | })(this)
+  230 | 
+> 231 | const moment = require('moment')
+      |                ^
+  232 | const rowOffset = 6
+  233 | 
+  234 | function nowStr () {
+
+ Error: require of "moment" module has been blocked. To be able to require custom modules you need to add to configuration { "allowLocalFilesAccess": true } or enable just specific module using { templatingEngines: { allowedModules": ["moment"] }
+    at _require (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:75:19)
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine-helpers.js:231:16
+    at Script.runInContext (vm.js:130:18)
+    at VM.run (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib\main.js:219:62)
+    at run (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\safeSandbox.js:171:19)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\engineScript.js:236:9)
+    at process.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\script-manager\lib\worker-processes.js:66:36)
+    at process.emit (events.js:315:20)
+    at emit (internal/child_process.js:876:12)
+2020-10-06T09:30:28.556Z - warn: Error during processing request at http://localhost:8001/api/report/sales-main
+2020-10-06T09:30:30.891Z - debug: OData query on assets
+2020-10-06T09:30:37.292Z - debug: OData query on templates
+2020-10-06T09:30:38.630Z - info: Starting rendering request 220 (user: null)
+2020-10-06T09:30:38.630Z - info: Rendering template { name: User-report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:30:38.631Z - debug: Adding sample data H3W1s79
+2020-10-06T09:30:38.636Z - debug: Resources not defined for this template.
+2020-10-06T09:30:38.637Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:30:38.638Z - debug: Replaced assets ["UserReport-styles.css","User-Tecno-Logo.png"]
+2020-10-06T09:30:38.638Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:30:38.800Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:30:38.802Z - debug: Executing recipe chrome-pdf
+2020-10-06T09:30:38.890Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T09:30:38.948Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/088feddd-dd01-45ea-9bf5-207b2bf3f4c0-chrome-pdf.html
+2020-10-06T09:30:38.966Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T09:30:38.966Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T09:30:38.973Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/088feddd-dd01-45ea-9bf5-207b2bf3f4c0-chrome-pdf.html
+2020-10-06T09:30:38.981Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T09:30:38.988Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-06T09:30:39.191Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-06T09:30:39.316Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-06T09:30:39.330Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T09:30:39.589Z - debug: Skipping storing report.
+2020-10-06T09:30:39.589Z - info: Rendering request 220 finished in 960 ms
+2020-10-06T09:32:19.538Z - debug: OData query on templates
+2020-10-06T09:32:19.561Z - debug: OData query on settings
+2020-10-06T09:33:20.624Z - debug: OData query on templates
+2020-10-06T09:33:22.654Z - debug: OData update on templates
+2020-10-06T09:33:22.665Z - debug: OData query on templates
+2020-10-06T09:33:24.257Z - info: Starting rendering request 221 (user: null)
+2020-10-06T09:33:24.258Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:33:24.258Z - debug: Data item not defined for this template.
+2020-10-06T09:33:24.264Z - debug: Resources not defined for this template.
+2020-10-06T09:33:24.264Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:33:24.265Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:33:24.424Z - warn: Rendering request 221 finished with error in 166 ms
+2020-10-06T09:33:24.433Z - warn: Error when processing render request 221 Error while executing templating engine. Missing helper: "xlsxRemove" Error: Missing helper: "xlsxRemove"
+    at Object.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:8:133)
+    at main (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:130:18)
+2020-10-06T09:33:24.434Z - warn: Error during processing request at http://localhost:8001/api/report/books%20excel
+2020-10-06T09:34:20.580Z - info: Starting rendering request 222 (user: null)
+2020-10-06T09:34:20.581Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:34:20.581Z - debug: Inline data specified.
+2020-10-06T09:34:20.587Z - debug: Resources not defined for this template.
+2020-10-06T09:34:20.588Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:34:20.589Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:34:20.747Z - warn: Rendering request 222 finished with error in 166 ms
+2020-10-06T09:34:20.757Z - warn: Error when processing render request 222 Error while executing templating engine. Missing helper: "xlsxRemove" Error: Missing helper: "xlsxRemove"
+    at Object.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:8:133)
+    at main (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:130:18)
+2020-10-06T09:34:20.758Z - warn: Error during processing request at http://localhost:8001/api/report/books%20excel
+2020-10-06T09:34:22.645Z - info: Starting rendering request 223 (user: null)
+2020-10-06T09:34:22.645Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:34:22.651Z - debug: Inline data specified.
+2020-10-06T09:34:22.651Z - debug: Resources not defined for this template.
+2020-10-06T09:34:22.652Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:34:22.653Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:34:22.811Z - warn: Rendering request 223 finished with error in 166 ms
+2020-10-06T09:34:22.818Z - warn: Error when processing render request 223 Error while executing templating engine. Missing helper: "xlsxRemove" Error: Missing helper: "xlsxRemove"
+    at Object.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:8:133)
+    at main (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:130:18)
+2020-10-06T09:34:22.819Z - warn: Error during processing request at http://localhost:8001/api/report/books%20excel
+2020-10-06T09:34:51.152Z - debug: OData query on assets
+2020-10-06T09:34:58.867Z - debug: OData update on assets
+2020-10-06T09:34:58.904Z - debug: OData query on assets
+2020-10-06T09:35:02.400Z - info: Starting rendering request 224 (user: null)
+2020-10-06T09:35:02.401Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:35:02.401Z - debug: Inline data specified.
+2020-10-06T09:35:02.406Z - debug: Resources not defined for this template.
+2020-10-06T09:35:02.407Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:35:02.408Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:35:02.564Z - warn: Rendering request 224 finished with error in 163 ms
+2020-10-06T09:35:02.571Z - warn: Error when processing render request 224 Error while executing templating engine. Missing helper: "xlsxRemove" Error: Missing helper: "xlsxRemove"
+    at Object.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:8:133)
+    at main (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:130:18)
+2020-10-06T09:35:02.572Z - warn: Error during processing request at http://localhost:8001/api/report/books%20excel
+2020-10-06T09:35:07.233Z - debug: OData update on templates
+2020-10-06T09:35:07.244Z - debug: OData query on templates
+2020-10-06T09:35:08.962Z - info: Starting rendering request 225 (user: null)
+2020-10-06T09:35:08.963Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:35:08.969Z - debug: Inline data specified.
+2020-10-06T09:35:08.969Z - debug: Resources not defined for this template.
+2020-10-06T09:35:08.970Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:35:08.971Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:35:09.127Z - warn: Rendering request 225 finished with error in 164 ms
+2020-10-06T09:35:09.134Z - warn: Error when processing render request 225 Error while executing templating engine. Missing helper: "xlsxRemove" Error: Missing helper: "xlsxRemove"
+    at Object.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:8:133)
+    at main (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:130:18)
+2020-10-06T09:35:09.134Z - warn: Error during processing request at http://localhost:8001/api/report/books%20excel
+2020-10-06T09:35:11.385Z - info: Starting rendering request 226 (user: null)
+2020-10-06T09:35:11.386Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:35:11.386Z - debug: Inline data specified.
+2020-10-06T09:35:11.386Z - debug: Resources not defined for this template.
+2020-10-06T09:35:11.392Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:35:11.393Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:35:11.551Z - warn: Rendering request 226 finished with error in 165 ms
+2020-10-06T09:35:11.560Z - warn: Error when processing render request 226 Error while executing templating engine. Missing helper: "xlsxRemove" Error: Missing helper: "xlsxRemove"
+    at Object.<anonymous> (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.eval [as main] (eval at createFunctionContext (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\javascript-compiler.js:262:23), <anonymous>:8:133)
+    at main (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at ret (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:519:21)
+    at C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-handlebars\lib\handlebarsEngine.js:33:20
+    at Object.base.apply (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\vm2\lib/contextify.js:469:32)
+    at evaluate-template-engine.js:1:64
+    at Script.runInContext (vm.js:130:18)
+2020-10-06T09:35:11.561Z - warn: Error during processing request at http://localhost:8001/api/report/books%20excel
+2020-10-06T09:36:17.902Z - debug: OData query on tasks
+2020-10-06T09:36:38.601Z - debug: OData query on tasks
+2020-10-06T09:39:43.810Z - debug: OData update on templates
+2020-10-06T09:39:43.821Z - debug: OData query on templates
+2020-10-06T09:41:24.105Z - debug: OData update on templates
+2020-10-06T09:41:24.116Z - debug: OData query on templates
+2020-10-06T09:41:25.060Z - info: Starting rendering request 227 (user: null)
+2020-10-06T09:41:25.061Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:41:25.061Z - debug: Inline data specified.
+2020-10-06T09:41:25.066Z - debug: Resources not defined for this template.
+2020-10-06T09:41:25.067Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:41:25.068Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:41:25.215Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:41:25.216Z - debug: Executing recipe chrome-pdf
+2020-10-06T09:41:25.319Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T09:41:25.390Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/b5626751-a8ec-44ed-8049-44fe16aab204-chrome-pdf.html
+2020-10-06T09:41:25.401Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/b5626751-a8ec-44ed-8049-44fe16aab204-chrome-pdf.html
+2020-10-06T09:41:25.418Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T09:41:25.556Z - debug: Skipping storing report.
+2020-10-06T09:41:25.557Z - info: Rendering request 227 finished in 496 ms
+2020-10-06T09:41:40.971Z - debug: OData update on templates
+2020-10-06T09:41:40.984Z - debug: OData query on templates
+2020-10-06T09:41:41.348Z - info: Starting rendering request 228 (user: null)
+2020-10-06T09:41:41.348Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:41:41.354Z - debug: Inline data specified.
+2020-10-06T09:41:41.355Z - debug: Resources not defined for this template.
+2020-10-06T09:41:41.356Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:41:41.357Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:41:41.502Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:41:41.502Z - debug: Executing recipe chrome-pdf
+2020-10-06T09:41:41.577Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T09:41:41.637Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/c1717f13-9554-4a5e-ab39-5dca06b84d9d-chrome-pdf.html
+2020-10-06T09:41:41.647Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/c1717f13-9554-4a5e-ab39-5dca06b84d9d-chrome-pdf.html
+2020-10-06T09:41:41.656Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-06T09:41:41.753Z - debug: Skipping storing report.
+2020-10-06T09:41:41.753Z - info: Rendering request 228 finished in 406 ms
+2020-10-06T09:42:44.268Z - debug: OData update on templates
+2020-10-06T09:42:44.281Z - debug: OData query on templates
+2020-10-06T09:42:45.407Z - info: Starting rendering request 229 (user: null)
+2020-10-06T09:42:45.408Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:42:45.408Z - debug: Inline data specified.
+2020-10-06T09:42:45.414Z - debug: Resources not defined for this template.
+2020-10-06T09:42:45.414Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:42:45.416Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:42:45.560Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:42:45.560Z - debug: Executing recipe chrome-pdf
+2020-10-06T09:42:45.637Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T09:42:45.695Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/c6e4f57b-6aaf-4726-8ffb-91e9810b2284-chrome-pdf.html
+2020-10-06T09:42:45.706Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/c6e4f57b-6aaf-4726-8ffb-91e9810b2284-chrome-pdf.html
+2020-10-06T09:42:45.716Z - debug: Running chrome with params {"printBackground":true,"displayHeaderFooter":true,"margin":{}}
+2020-10-06T09:42:45.892Z - debug: Skipping storing report.
+2020-10-06T09:42:45.892Z - info: Rendering request 229 finished in 485 ms
+2020-10-06T09:42:54.137Z - debug: OData insert into settings
+2020-10-06T09:44:12.447Z - info: Starting rendering request 230 (user: null)
+2020-10-06T09:44:12.448Z - info: Rendering template { name: books excel, recipe: xlsx, engine: handlebars, preview: true }
+2020-10-06T09:44:12.448Z - debug: Inline data specified.
+2020-10-06T09:44:12.455Z - debug: Resources not defined for this template.
+2020-10-06T09:44:12.458Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:44:12.459Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:44:12.655Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:44:12.655Z - debug: Executing recipe xlsx
+2020-10-06T09:44:12.655Z - debug: Parsing xlsx content
+2020-10-06T09:44:12.668Z - warn: Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+
+
+
+<worksheets>
+<dimension ref="A1" />
+
+
+</worksheets>
+
+<div>
+    <p>
+        Hello World... 
+SyntaxError: Unexpected token < in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-xlsx\lib\recipe.js:25:26)
+    at Object.execute (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-xlsx\lib\index.js:39:28)
+    at invokeRender (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:99:17)
+    at async module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:150:5)
+2020-10-06T09:44:13.170Z - debug: Skipping storing report.
+2020-10-06T09:44:13.170Z - info: Rendering request 230 finished in 723 ms
+2020-10-06T09:44:34.842Z - debug: OData update on templates
+2020-10-06T09:44:34.855Z - debug: OData query on templates
+2020-10-06T09:44:35.504Z - info: Starting rendering request 231 (user: null)
+2020-10-06T09:44:35.504Z - info: Rendering template { name: books excel, recipe: xlsx, engine: handlebars, preview: true }
+2020-10-06T09:44:35.505Z - debug: Inline data specified.
+2020-10-06T09:44:35.510Z - debug: Resources not defined for this template.
+2020-10-06T09:44:35.511Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:44:35.512Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:44:35.701Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:44:35.701Z - debug: Executing recipe xlsx
+2020-10-06T09:44:35.701Z - debug: Parsing xlsx content
+2020-10-06T09:44:35.709Z - warn: Unable to parse xlsx template JSON string (maybe you are missing {{{xlsxPrint}}} at the end?): 
+
+
+
+<worksheets>
+<dimension ref="A1" />
+<div>
+    <p>
+        Hello World
+    </p>
+</div>
+... 
+SyntaxError: Unexpected token < in JSON at position 6
+    at JSON.parse (<anonymous>)
+    at module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-xlsx\lib\recipe.js:25:26)
+    at Object.execute (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-xlsx\lib\index.js:39:28)
+    at invokeRender (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:99:17)
+    at async module.exports (C:\Users\PeRsO\Desktop\jsreportapp\node_modules\jsreport-core\lib\render\render.js:150:5)
+2020-10-06T09:44:36.056Z - debug: Skipping storing report.
+2020-10-06T09:44:36.056Z - info: Rendering request 231 finished in 553 ms
+2020-10-06T09:45:09.858Z - info: Starting rendering request 232 (user: null)
+2020-10-06T09:45:09.858Z - info: Rendering template { name: books excel, recipe: text, engine: handlebars, preview: true }
+2020-10-06T09:45:09.859Z - debug: Inline data specified.
+2020-10-06T09:45:09.864Z - debug: Resources not defined for this template.
+2020-10-06T09:45:09.865Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:45:09.866Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:45:10.011Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:45:10.011Z - debug: Executing recipe text
+2020-10-06T09:45:10.011Z - debug: Skipping storing report.
+2020-10-06T09:45:10.012Z - info: Rendering request 232 finished in 154 ms
+2020-10-06T09:45:17.797Z - debug: OData update on templates
+2020-10-06T09:45:17.810Z - debug: OData query on templates
+2020-10-06T09:45:20.115Z - info: Starting rendering request 233 (user: null)
+2020-10-06T09:45:20.121Z - info: Rendering template { name: books excel, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-06T09:45:20.121Z - debug: Inline data specified.
+2020-10-06T09:45:20.121Z - debug: Resources not defined for this template.
+2020-10-06T09:45:20.122Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:45:20.123Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:45:20.267Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:45:20.267Z - debug: Executing recipe chrome-pdf
+2020-10-06T09:45:20.343Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T09:45:20.401Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/76f1f363-e385-4bf2-99e2-3ef88b2cc585-chrome-pdf.html
+2020-10-06T09:45:20.411Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/76f1f363-e385-4bf2-99e2-3ef88b2cc585-chrome-pdf.html
+2020-10-06T09:45:20.422Z - debug: Running chrome with params {"printBackground":true,"displayHeaderFooter":true,"margin":{}}
+2020-10-06T09:45:20.589Z - debug: Skipping storing report.
+2020-10-06T09:45:20.589Z - info: Rendering request 233 finished in 475 ms
+2020-10-06T09:45:26.331Z - debug: OData update on templates
+2020-10-06T09:45:26.342Z - debug: OData query on templates
+2020-10-06T09:45:26.783Z - info: Starting rendering request 234 (user: null)
+2020-10-06T09:45:26.784Z - info: Rendering template { name: books excel, recipe: html-with-browser-client, engine: handlebars, preview: true }
+2020-10-06T09:45:26.784Z - debug: Inline data specified.
+2020-10-06T09:45:26.790Z - debug: Resources not defined for this template.
+2020-10-06T09:45:26.791Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:45:26.792Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:45:26.936Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:45:26.936Z - debug: Executing recipe html-with-browser-client
+2020-10-06T09:45:26.937Z - debug: Skipping storing report.
+2020-10-06T09:45:26.942Z - info: Rendering request 234 finished in 154 ms
+2020-10-06T09:45:33.242Z - debug: OData update on templates
+2020-10-06T09:45:33.253Z - debug: OData query on templates
+2020-10-06T09:45:33.717Z - info: Starting rendering request 235 (user: null)
+2020-10-06T09:45:33.718Z - info: Rendering template { name: books excel, recipe: chrome-image, engine: handlebars, preview: true }
+2020-10-06T09:45:33.718Z - debug: Inline data specified.
+2020-10-06T09:45:33.724Z - debug: Resources not defined for this template.
+2020-10-06T09:45:33.725Z - debug: Base url not specified, skipping its injection.
+2020-10-06T09:45:33.726Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-06T09:45:33.872Z - debug: Compiled template not found in the cache, compiling
+2020-10-06T09:45:33.872Z - debug: Executing recipe chrome-image
+2020-10-06T09:45:33.957Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-06T09:45:34.016Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/a92a483a-f9ce-46f6-9dd0-0df09369b7ca-chrome-image.html
+2020-10-06T09:45:34.023Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/a92a483a-f9ce-46f6-9dd0-0df09369b7ca-chrome-image.html
+2020-10-06T09:45:34.033Z - debug: Running chrome with params {"type":"png","encoding":"binary"}
+2020-10-06T09:45:34.393Z - debug: Skipping storing report.
+2020-10-06T09:45:34.393Z - info: Rendering request 235 finished in 676 ms
+2020-10-06T09:46:04.132Z - debug: OData remove from folders
+2020-10-06T09:46:04.172Z - debug: OData query on templates
+2020-10-06T09:46:04.202Z - debug: OData query on settings
+2020-10-14T16:47:53.537Z - info: Initializing jsreport@2.10.0 in development mode using configuration file: jsreport.config.json
+2020-10-14T16:47:53.538Z - info: Searching for available extensions in C:\Users\PeRsO\Desktop\jsreportapp\
+2020-10-14T16:47:53.546Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\PeRsO\Desktop\jsreportapp\
+2020-10-14T16:47:53.599Z - info: Found 35 extensions
+2020-10-14T16:47:53.837Z - debug: Writing extension locations cache to C:\Users\PeRsO\AppData\Local\Temp\jsreport\core\locations.json
+2020-10-14T16:47:53.839Z - debug: Discovered 35 extensions
+2020-10-14T16:47:53.891Z - info: Setting dedicated-process (process based) strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2020-10-14T16:47:53.899Z - debug: Extension authentication@2.6.0 is disabled, skipping
+2020-10-14T16:47:53.900Z - info: Using extension cli@2.2.5
+2020-10-14T16:47:53.912Z - info: Using extension debug@2.1.3
+2020-10-14T16:47:53.915Z - info: Using extension express@2.8.0
+2020-10-14T16:47:54.132Z - info: Using extension freeze@2.0.0
+2020-10-14T16:47:54.134Z - info: Using extension handlebars@2.1.0
+2020-10-14T16:47:54.137Z - info: Using extension import-export@2.1.0
+2020-10-14T16:47:54.199Z - info: Using extension jsrender@2.1.1
+2020-10-14T16:47:54.200Z - info: Using extension tags@2.5.0
+2020-10-14T16:47:54.208Z - info: Using extension templates@2.4.0
+2020-10-14T16:47:54.211Z - info: Using extension authorization@2.4.0
+2020-10-14T16:47:54.216Z - debug: Extension authorization@2.4.0 was disabled
+2020-10-14T16:47:54.216Z - info: Using extension base@2.0.2
+2020-10-14T16:47:54.218Z - info: Using extension browser-client@2.2.2
+2020-10-14T16:47:54.221Z - info: Using extension child-templates@1.4.0
+2020-10-14T16:47:54.229Z - info: Using extension chrome-pdf@1.9.0
+2020-10-14T16:47:54.321Z - debug: Chrome strategy is dedicated-process
+2020-10-14T16:47:54.321Z - info: Using extension data@2.4.0
+2020-10-14T16:47:54.329Z - info: Using extension docx@2.8.0
+2020-10-14T16:47:54.334Z - info: Using extension fs-store@2.9.0
+2020-10-14T16:47:54.507Z - info: Using extension licensing@2.2.3
+2020-10-14T16:47:54.515Z - info: Using extension pdf-utils@1.9.0
+2020-10-14T16:47:54.611Z - info: Using extension pptx@0.7.0
+2020-10-14T16:47:54.619Z - info: Using extension reports@2.5.0
+2020-10-14T16:47:54.625Z - info: Using extension static-pdf@0.4.0
+2020-10-14T16:47:54.630Z - info: Using extension studio@2.10.1
+2020-10-14T16:47:54.697Z - debug: studio request logs are enabled (flush interval: 2000)
+2020-10-14T16:47:54.699Z - info: Using extension text@2.0.0
+2020-10-14T16:47:54.701Z - info: Using extension version-control@1.5.1
+2020-10-14T16:47:54.820Z - info: Using extension assets@1.7.0
+2020-10-14T16:47:54.832Z - info: Using extension html-to-xlsx@2.8.0
+2020-10-14T16:47:55.244Z - info: html-to-xlsx detected chrome as available html engine
+2020-10-14T16:47:55.245Z - info: Using extension scheduling@2.5.0
+2020-10-14T16:47:55.291Z - info: Using extension scripts@2.6.0
+2020-10-14T16:47:55.295Z - info: Using extension studio-theme-dark@0.3.0
+2020-10-14T16:47:55.296Z - info: Using extension xlsx@2.5.0
+2020-10-14T16:47:55.497Z - info: Using extension public-templates@2.2.0
+2020-10-14T16:47:55.499Z - debug: Extension public-templates@2.2.0 was disabled
+2020-10-14T16:47:55.499Z - info: Using extension resources@2.1.0
+2020-10-14T16:47:55.500Z - info: Using extension sample-template@2.6.0
+2020-10-14T16:47:55.509Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2020-10-14T16:47:55.509Z - info: Using fs provider for template store.
+2020-10-14T16:47:55.514Z - info: fs store is persisting using fs
+2020-10-14T16:47:55.515Z - info: fs store sync is disabled
+2020-10-14T16:47:55.523Z - info: fs store underlying changes synchronization with studio is disabled
+2020-10-14T16:47:55.527Z - info: fs store is loading data
+2020-10-14T16:47:55.554Z - info: fs store is initialized successfully
+2020-10-14T16:47:55.562Z - debug: studio default theme is: light
+2020-10-14T16:47:55.569Z - info: Creating default express app.
+2020-10-14T16:47:55.602Z - info: jsreport server successfully started on http port: 8001
+2020-10-14T16:47:55.603Z - info: Verifying license key free
+2020-10-14T16:47:56.382Z - info: Starting one month enterprise trial
+2020-10-14T16:47:56.390Z - info: reporter initialized
+2020-10-14T16:48:01.533Z - debug: OData query on templates
+2020-10-14T16:48:01.542Z - debug: OData query on folders
+2020-10-14T16:48:01.546Z - debug: OData query on tags
+2020-10-14T16:48:01.548Z - debug: OData query on data
+2020-10-14T16:48:01.549Z - debug: OData query on assets
+2020-10-14T16:48:01.550Z - debug: OData query on scripts
+2020-10-14T16:48:01.553Z - debug: OData query on xlsxTemplates
+2020-10-14T16:48:01.556Z - debug: OData query on schedules
+2020-10-14T16:48:01.565Z - debug: OData query on settings
+2020-10-14T16:48:01.669Z - debug: OData query on templates
+2020-10-14T16:48:01.721Z - debug: OData query on settings
+2020-10-14T16:48:06.051Z - debug: OData query on templates
+2020-10-14T16:48:08.254Z - info: Starting rendering request 1 (user: null)
+2020-10-14T16:48:08.256Z - info: Rendering template { name: Supplier Report, recipe: chrome-pdf, engine: handlebars, preview: true }
+2020-10-14T16:48:08.262Z - debug: Adding sample data ZIfrGCMZzl
+2020-10-14T16:48:08.262Z - debug: Resources not defined for this template.
+2020-10-14T16:48:08.264Z - debug: Base url not specified, skipping its injection.
+2020-10-14T16:48:08.275Z - debug: Replaced assets [" Supplier-Report-styles.css","User-Tecno-Logo.png"]
+2020-10-14T16:48:08.276Z - debug: Rendering engine handlebars using dedicated-process strategy
+2020-10-14T16:48:08.470Z - debug: Compiled template not found in the cache, compiling
+2020-10-14T16:48:08.478Z - debug: Executing recipe chrome-pdf
+2020-10-14T16:48:08.881Z - debug: Converting with chrome HeadlessChrome/79.0.3945.0 using dedicated-process strategy
+2020-10-14T16:48:09.260Z - debug: Page request: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/6c9ef62e-bd7f-4004-b3c3-9961af800821-chrome-pdf.html
+2020-10-14T16:48:09.278Z - debug: Page request: GET (script) https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-14T16:48:09.278Z - debug: Page request: GET (stylesheet) https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-14T16:48:09.280Z - debug: Page request finished: GET (document) file:///C:/Users/PeRsO/AppData/Local/Temp/jsreport/autocleanup/6c9ef62e-bd7f-4004-b3c3-9961af800821-chrome-pdf.html
+2020-10-14T16:48:09.302Z - debug: Page request: GET (image) data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-14T16:48:09.304Z - debug: Page request finished: GET (image) 200 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAAIACAYAAADdQ8F5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAJSW...
+2020-10-14T16:48:11.817Z - debug: Page request finished: GET (stylesheet) 200 https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css
+2020-10-14T16:48:11.948Z - debug: Page request finished: GET (script) 200 https://use.fontawesome.com/releases/v5.14.0/js/all.js
+2020-10-14T16:48:11.964Z - debug: Running chrome with params {"printBackground":true,"margin":{}}
+2020-10-14T16:48:12.215Z - debug: Skipping storing report.
+2020-10-14T16:48:12.216Z - info: Rendering request 1 finished in 3962 ms
+>>>>>>> bac250c486b43fc4af6b271ea23ab22806fa438c
